@@ -1,0 +1,374 @@
+        *{
+            padding: 0;
+            margin: 0;
+            color: azure;
+            text-decoration: none;
+            list-style: none;
+            font-family:  Arial;
+        }
+        .frontpage{
+            height: 800px;
+            width: 100%;
+            /* position:absolute; */
+        
+        }
+        .frontpage-img{
+            height: 800px;
+            min-width: 100%;
+            position: absolute;
+            z-index: -1;
+            right: 0;
+        }
+        .navbar{
+            display: flex;
+            
+            position: fixed;
+            z-index: 1;
+            
+        }
+        .navbar-list{
+            height: 50px;
+            width: 60%;
+            margin-left: 580px;
+            padding-right: 140px;
+            
+        }
+        .navbar-list ul {
+            display: flex;
+            margin-top: 50px;
+        } 
+        .navbar-list ul li{
+            margin-left: 40px;
+            color: black;
+            font-size: 17px;
+            
+        }
+        .navbar-list ul li a:hover{
+            text-decoration: underline;
+            
+        }
+        
+        .logo img{
+            height: 35px;
+            width: 90px;
+            margin-top: 50px;
+            margin-left: 175px;
+            position: fixed;
+        }
+        .search img{
+            height: 25px;
+            width: 25px;
+            margin-top: 50px;
+            
+        }
+        
+        
+        .side-navbar{
+            height: 500px;
+            width: 100px;
+            margin-top: 100px;
+            position: fixed;
+        }
+        .side-navbar-list{
+            padding: 30px;
+        }
+        .side-navbar-list ul li{
+            margin-top: 30px;
+            
+        }
+        .side-navbar-list ul li{
+            font-size: 20px;
+        
+        }
+        .frontpage-center{
+            display: flex;
+        }
+        .frontpage-para{
+            height: 200px;
+            width: 500px;
+            margin: 250px 0 0 150px;
+        }
+        .frontpage-para h1{
+            color:azure;
+            font-weight: bolder;
+            font-size: 35px;
+            
+        }
+        .frontpage-para button{
+            color: azure;
+            padding: 12px 40px 12px 40px;
+            height: 45px;
+            width: 200px;
+            margin-top: 40px;
+            background:transparent;
+            border: 1px solid azure;
+            
+        }
+        .frontpage-para button:hover{
+            background: black;
+            border: none;
+            
+        }
+        .secondpage{
+            height: 800px;
+            width: 100%;
+            background: #ab6604;
+            display: flex;
+            
+            
+        }
+        .secondpage img{
+            width: 1600px;
+            height: 700px;
+            margin-top: 100px;
+            position: absolute;
+            right: 0;
+        }
+         .secondpage-header{
+            padding-top:115px;
+            padding-left: 174px;
+         }
+         .secondpage-header h1{
+            font-size: 50px;
+         }
+         .secondpage-header-para {
+            margin-top: 20px;
+            font-size: 20px;
+         }
+        .secondpage-header button{
+            color: azure;
+            padding: 12px 40px 12px 40px;
+            height: 45px;
+            width: 200px;
+            margin-top: 50px;
+            background: transparent;
+            border: 1px solid azure;
+            position: relative;
+        }
+        .secondpage-header h3{
+            padding-top: 30px;
+        }
+        .secondpage-conent-colunm{
+            padding-right: 50px;
+                                                                    
+        }
+        .secondpage-content{
+            display: flex;
+            margin-top : 20px;
+            font-weight: bold;
+            font-size: 20px;
+            
+        }
+        .secondpage-conent-colunm a{
+            position: relative;
+            top: 30px;
+            font-weight: normal;
+            font-size: small;
+        }
+        .secondpage-header button:hover{
+            background: black;
+            border: none;
+            
+        }
+        .thirdpage{
+            height: 800px;
+            width: 100%;
+            background: #0271b1;
+            display: flex;
+            
+               
+        }
+        .thirdpage img{
+            width: 1500px;
+            height: 700px;
+            margin-top: 70px;
+            position: absolute;
+
+        }
+        .thirdpage-header{
+            position: relative;
+            margin-top: 150px;
+            margin-left: 785px;
+        }
+        .thirdpage-header h1{
+            font-size: 50px;
+        }
+
+        .thirdpage-header-para {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .thirdpage-header button{
+            color: azure;
+            padding: 12px 40px 12px 40px;
+            height: 45px;
+            width: 200px;
+            margin-top: 50px;
+            background: transparent;
+            border: 1px solid azure;
+        }
+
+        .thirdpage-header h3{
+            padding-top: 30px;
+        }
+        
+        .thirdpage-conent-colunm{
+            padding-right: 50px;
+                                                                    
+        }
+
+        .thirdpage-content{
+            display: flex;
+            margin-top : 20px;
+            font-weight: bold;
+            font-size: 20px;
+            
+        }
+        .thirdpage-conent-colunm a{
+            position: relative;
+            top: 30px;
+            font-weight: normal;
+            font-size: small;
+        }
+        .thirdpage-header button:hover{
+            background: black;
+            border: none;
+            
+        }
+        
+        .fourthpage{
+            height: 800px;
+            width: 100%;
+            background: #8e2d8d;
+            display: flex;
+                 
+        }
+        .fourthpage img{
+            width: 1600px;
+            height: 700px;
+            margin-top: 100px;
+            position: absolute;
+            right: 0;
+
+        }
+        .fourthpage-header{
+            padding-top:120px;
+            padding-left: 174px;
+        }
+        .fourthpage-header h1{
+            font-size: 50px;
+         }
+        .fourthpage-header-para {
+            margin-top: 20px;
+            font-size: 20px;
+         }
+         .fourthpage-header button{
+            color: azure;
+            padding: 12px 40px 12px 40px;
+            height: 45px;
+            width: 200px;
+            margin-top: 50px;
+            background: transparent;
+            border: 1px solid azure;
+            position: relative;
+        }
+        .fourthpage-header h3{
+            padding-top: 30px;
+        }
+        .fourthpage-conent-colunm{
+            padding-right: 50px;
+                                                                    
+        }
+        .fourthpage-content{
+            display: flex;
+            margin-top : 20px;
+            font-weight: bold;
+            font-size: 20px;
+            
+        }
+        .fourthpage-conent-colunm a{
+            position: relative;
+            top: 30px;
+            font-weight: normal;
+            font-size: small;
+        }
+        .fourthpage-header button:hover{
+            background: black;
+            border: none;
+            
+        }
+        .fifthpage{
+            height: 1520px;
+            width: 100%;
+            /* background: black; */
+        }
+        .fifthpage img{
+            margin-top: 100px;
+            margin-left: 700px;
+        }
+
+        .fifthpage-center-1{
+            color: black;
+            font-size: 50px;
+        }
+
+        .fifthpage-center-2{
+            color: #7E7E7E ;
+            margin-top: 30px;
+        }
+        .grid-box-img{
+            width: 1170px;
+            height: 585px;
+            background: black;
+            margin-left: 190px;
+            margin-top: 50px;
+            display: flex;
+            
+            
+        }
+        .grid-box-img-container img{
+            width: 50%;
+            height: 50%;
+            display: flex;
+        }
+        .grid-box-img-container-row{
+            display: flex;
+        }
+        
+        
+
+        /* .sq{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: auto;
+            margin: 10px auto
+        }
+
+        .sq1{
+            position: fixed;
+            top:10px;
+        }
+        .sq2{
+            position: absolute;
+            top:10px;
+            top:10px;
+            left: 500px;
+        }
+
+        .sq1{
+            position: fixed;
+            
+        }
+
+        .main{
+            min-height: 500px;
+        }
+
+        .dummy{
+            background-color:#ab6604;
+            width: 100%;
+            height: 500px;
+            position: relative;
+        } */
