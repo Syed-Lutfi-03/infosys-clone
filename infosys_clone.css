@@ -327,6 +327,11 @@
             
             
         }
+        .grid-box-img-big{
+            max-width: 100%;
+            height: 100%;
+        }
+
         .grid-box-img-container img{
             width: 50%;
             height: 50%;
@@ -338,37 +343,4 @@
         
         
 
-        /* .sq{
-            width: 100px;
-            height: 100px;
-            background-color: green;
-            margin: auto;
-            margin: 10px auto
-        }
-
-        .sq1{
-            position: fixed;
-            top:10px;
-        }
-        .sq2{
-            position: absolute;
-            top:10px;
-            top:10px;
-            left: 500px;
-        }
-
-        .sq1{
-            position: fixed;
-            
-        }
-
-        .main{
-            min-height: 500px;
-        }
-
-        .dummy{
-            background-color:#ab6604;
-            width: 100%;
-            height: 500px;
-            position: relative;
-        } */
+        
